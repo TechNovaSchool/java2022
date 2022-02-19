@@ -13,6 +13,7 @@ public class CodeReview {
         String day5 = "Friday";
         String day6 = "Saturday";
         String day7 = "Sunday";
+        System.out.println("Hello GiT");
 
 
         System.out.println(day1);
