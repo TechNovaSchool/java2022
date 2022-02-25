@@ -189,31 +189,6 @@ public class PracticeJava {
             System.out.println("Not an Anagram");
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
 }
