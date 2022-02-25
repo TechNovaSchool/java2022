@@ -3,12 +3,25 @@ public class MethodsBasic {
     public static void main(String[] args) {
 
         // calling the method
-        printNumber();
+        /*printNumber();
         printText();
         printName("John");
         printName("John 01");
         printName("John 02");
+        printNameWithHello("John");
+        printNameWithHello("Bob");
+        printNameWithHello("Allan");
+        printNameWithHello("Smith");
+        printFullName("John", "Smith");*/
 
+
+/*
+       MethodsClassA aClass = new MethodsClassA();
+
+       aClass.addTwoNumbers(30, 50);
+       MethodsClassA.multiplyTwoNumbers(30, 10);*/
+
+        MethodsClassA.multiplyTwoNumbers(20, 30);
 
     }
 
@@ -26,13 +39,21 @@ public class MethodsBasic {
         System.out.println(name);
     }
 
+    public static void printNameWithHello(String name){
 
+        System.out.println("Hello " + name);
 
- // create a method that takes a String param as name
-    // print Hello name
-    // "John"
-    // Hello John
+    }
 
+    public static void printFullName(String firstName, String lastName){
 
+        System.out.println(firstName + " " + lastName);
+
+    }
+
+    public static void addTwoNumbers(int x, int y){
+
+        System.out.println(x + y);
+    }
 
 }
