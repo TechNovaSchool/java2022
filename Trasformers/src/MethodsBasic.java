@@ -21,8 +21,8 @@ public class MethodsBasic {
        aClass.addTwoNumbers(30, 50);
        MethodsClassA.multiplyTwoNumbers(30, 10);*/
 
-        MethodsClassA.multiplyTwoNumbers(20, 30);
-
+        MethodsBasicPartTwo obj = new MethodsBasicPartTwo();
+        System.out.println(obj.calculateAge(1997));
     }
 
     // outside the main method
