@@ -17,5 +17,7 @@ public class JohnClass {
 
         FullTimer ft1 = new FullTimer("Danny", 65);
         System.out.println(ft1.calculateSalary());
+
+
     }
 }
