@@ -4,11 +4,12 @@ package CollectionFrameworks;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
 
 public class ArrayListClass {
 
     public static void main(String[] args) {
-
 
         /*// regular/build-in array of Strings
         String [] cars = {"BMW", "BENZ", "Opel", "Ford", "Tesla"};
@@ -123,7 +124,7 @@ public class ArrayListClass {
 
 
 
-        ArrayList <String> names = new ArrayList<String>();
+      /*  ArrayList <String> names = new ArrayList<String>();
         names.add("John");
         names.add("Doe");
         names.add("Nurlan");
@@ -138,11 +139,9 @@ public class ArrayListClass {
 
         System.out.println(names);
         Collections.sort(names);
-        System.out.println(names);
+        System.out.println(names);*/
+
+
 
     }
 }
-
-
-// 04/09/22
-// 04/02/22
