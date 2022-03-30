@@ -11,14 +11,14 @@ public class ArrayListClass {
 
     public static void main(String[] args) {
 
-        /*// regular/build-in array of Strings
+        // regular/build-in array of Strings
         String [] cars = {"BMW", "BENZ", "Opel", "Ford", "Tesla"};
         System.out.println(cars.length);
         for( String car : cars){
             System.out.println(car);
-        }*/
+        }
 
-     /*   System.out.println(">>>>>>> ArrayList <<<<<<<");
+       System.out.println(">>>>>>> ArrayList <<<<<<<");
 
         // arraylist
         ArrayList <String> carArr  = new ArrayList <String> ();
@@ -29,9 +29,9 @@ public class ArrayListClass {
         carArr.add("Tesla");
         System.out.println(carArr.size());
         System.out.println(carArr.get(0));
-        System.out.println(carArr);*/
+        System.out.println(carArr);
 
-/*
+
 
         // create a Array list which can hold days of the week
         ArrayList <String> days = new ArrayList <String> ();
@@ -113,18 +113,18 @@ public class ArrayListClass {
         System.out.println(chars.size());
 
 
-        for (Double aDouble : doubles) {
+        for (double aDouble : doubles) {
             System.out.println(aDouble);
         }
 
         for (int i = 0; i < doubles.size(); i++){
             System.out.println(doubles.get(i));
         }
-*/
 
 
 
-      /*  ArrayList <String> names = new ArrayList<String>();
+
+        ArrayList <String> names = new ArrayList<String>();
         names.add("John");
         names.add("Doe");
         names.add("Nurlan");
@@ -136,10 +136,18 @@ public class ArrayListClass {
         names.add("Kamol");
         names.add("Max");
         names.add("Merivan");
+        names.add(0, "Names: ");
 
         System.out.println(names);
-        Collections.sort(names);
-        System.out.println(names);*/
+        //Collections.sort(names);
+        System.out.println(names.get(7));
+        names.set(0, "Smith");
+        System.out.println(names);
+        names.remove(2);
+        System.out.println(names.size());
+        names.clear();
+        System.out.println(names.size());
+
 
 
 

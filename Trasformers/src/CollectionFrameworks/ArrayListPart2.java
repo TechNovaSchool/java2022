@@ -2,6 +2,7 @@ package CollectionFrameworks;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Scanner;
 
 public class ArrayListPart2 {
 
@@ -172,6 +173,36 @@ public class ArrayListPart2 {
         }
 
         System.out.println(alphabet);
+
+
+        // ask user to enter 10 word
+        // store all 10 words to arraylist
+        // 10 month , 10 fruit , 10 car
+        ArrayList <String> str = new ArrayList<String>();
+
+        for(int i = 1; i<=10; i++){
+            Scanner sc = new Scanner(System.in);
+            System.out.print(i+ " Enter a word: ");
+            String userInput = sc.nextLine();
+            str.add(userInput);
+        }
+        System.out.println(str);
+
+        ArrayList <Integer> num = new ArrayList<Integer>();
+
+        int i = 1;
+        do{
+            Scanner sc = new Scanner(System.in);
+            System.out.println(i+ " Enter a number");
+            int userInput = sc.nextInt();
+            num.add(userInput);
+            i++;
+        }while(i <= 10);
+
+        System.out.println(num);
+
+
+
 
 
 
