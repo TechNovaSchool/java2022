@@ -21,7 +21,7 @@ public class ArrayListClass {
        System.out.println(">>>>>>> ArrayList <<<<<<<");
 
         // arraylist
-        ArrayList <String> carArr  = new ArrayList <String> ();
+        ArrayList <String> carArr  = new ArrayList <> ();
         carArr.add("BMW");
         carArr.add("BENZ");
         carArr.add("Opel");
@@ -30,6 +30,9 @@ public class ArrayListClass {
         System.out.println(carArr.size());
         System.out.println(carArr.get(0));
         System.out.println(carArr);
+        carArr.set(1, "Shevy");
+
+
 
 
 

@@ -1,13 +1,15 @@
 package CollectionFrameworks;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
+import java.util.List;
 
 public class LikedListClass {
 
     public static void main(String[] args) {
 
-        ArrayList <String> days = new ArrayList<>();
+        List<String> days = new ArrayList<>();
         days.add("Monday");
         days.add("Tuesday");
         days.add("Wednesday");
@@ -19,6 +21,7 @@ public class LikedListClass {
         day.add("Monday");
         day.add("Tuesday");
         day.add("Wednesday");
+        day.addAll(days);
 
         System.out.println(days);
         System.out.println(day.get(0));
@@ -66,6 +69,7 @@ public class LikedListClass {
         System.out.println(chars);
         chars.clear();
         System.out.println(chars);
+        Collections.sort(chars);
 
 
 
